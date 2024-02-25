@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/1099/1099672.png">
+    <title>Teams Generator</title>
+</head>
+<body id="body">
+    <div class="inline-container">
+        <div id="list">
+            <header>
+                <h1>Players List 📃</h1>
+                <hr>
+            </header>
+            <h3>Enter 14 Players & their ratings:</h3>
+            <section id="formContainer">
+            </section>
+            <button id="balanceButton" onclick="balanceTeams()">Generate Teams</button>
+        </div>
+    </div>
+    <div class="inline-container">
+        <div id="teams">
+            <header>
+                <h1>Teams Division 🥅</h1>
+                <hr>
+            </header>
+            <div id="output"></div>
+        </div>
+        <div id="navDiv">
+            <div class="inline-container">
+                <button class="navButtons" onclick="navigate('left')"><img id="inverted"  src="https://cdn-icons-png.flaticon.com/128/271/271226.png" height="50px" width="50px" ></button>
+            </div>
+            <div class="inline-container">
+                <button class="navButtons" onclick="ratingsShow()"> <img src="https://cdn-icons-png.flaticon.com/128/3257/3257727.png" height="50px" width="50px"></button>
+            </div>
+            <div class="inline-container">
+                <button class="navButtons" onclick="swapColors()"> <img src="https://cdn-icons-png.flaticon.com/128/339/339078.png" height="50px" width="50px"></button>
+            </div>
+            <div class="inline-container">
+                <button class="navButtons" onclick="navigate('right')"><img src="https://cdn-icons-png.flaticon.com/128/271/271226.png" height="50px" width="50px" ></button>
+            </div>
+        </div>
+    </div>
+    <div id="customAlert" class="modal">
+        <h2 id="modalTitle"> ❌ Input Error! </h2>
+        <p id="modalMessage">⚠️ Some information are missing.</p>
+        <button onclick="hideCustomAlert()">OK</button>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

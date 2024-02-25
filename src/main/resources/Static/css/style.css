@@ -1,0 +1,164 @@
+body {
+    font-family: 'Secular One', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/playground.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inline-container {
+    display: inline-block;
+    padding: 20px 22px 20px 33px;
+}
+.inline-container h2 {
+    margin: 0;
+}
+#list, #teams {
+    width: fit-content;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 18px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+#teams{
+    display: none;
+}
+.team{
+    width: 280px;
+    height: fit-content;
+    border-radius: 8px;
+    padding: 5px;
+}
+#secondTeam{
+    background-color: #197ca3;
+    color: #fff;
+}
+#firstTeam{
+    background-color: #ca3434;
+    color: #fff;
+}
+header {
+    text-align: center;
+}
+
+button {
+    font-family: 'Secular One', sans-serif;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #000;
+    border-radius: 14px;
+    cursor: pointer;
+    border: 1px solid #000;
+    margin-top: 15px;
+}
+button:hover {
+    background-color: #fff;
+}
+#formContainer label {
+    padding-right: 10px;
+}
+#output{
+    margin-bottom: 20px;
+}
+/* #positionsKeys{
+    width: 120px;
+    height: 120px;
+    background-color: #000000;
+    color: #ffff;
+    border-radius: 8px;
+    padding: 5px;
+} */
+h2, p {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.navButtons {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 80px;
+    height: 80px;
+}
+.navButtons:hover{
+    background-color: #4caf50;
+}
+#navDiv{
+    display: none;
+    justify-content: center;
+    text-align: center;
+}
+#inverted{
+    transform: rotate(180deg);
+}
+.img{
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.player-input, .player-position, .player-rating {
+    box-sizing: border-box;
+    margin-right: 15px;
+    margin-left: 2px;
+    margin-bottom: 5px;
+    border: 2px solid #4caf50;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.player-container {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    margin-right: 2px;
+}
+
+.player-label {
+    margin-right: 10px;
+    margin-left: 5%;
+    width: 15px;
+}
+.player-input {
+    padding: 9px;
+    width: 150px;
+}
+
+.player-position {
+    padding: 4.5px;
+    width: 18%;
+}
+
+.player-rating {
+    padding: 9px;
+    width: 15%;
+}
+input:focus {
+    outline-color: #245527;
+}
