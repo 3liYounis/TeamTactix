@@ -30,6 +30,6 @@ This project is a web application built using SpringBoot Server that automates t
 5. Review the generated lineup and make any necessary adjustments.
 6. Once satisfied, choose the lineup and easily share it with team members or coaches.
 
-## Acknowledgements
-- [Spring Boot](https://spring.io/projects/spring-boot)
-- [Maven](https://maven.apache.org/)
+## Screenshot
+<img width="1915" height="893" alt="image" src="https://github.com/user-attachments/assets/912a08a6-46e5-444e-99e2-e171fb5a3b22" />
+
